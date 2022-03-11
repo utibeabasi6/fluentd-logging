@@ -8,12 +8,14 @@ To follow along with this demo, here are a few things you need to have installed
 
 - Docker and Docker Compose: You can install these [here](https://docs.docker.com/get-docker/)
 
+- You will also need to create a slack bot. Follow the instructions [here](https://slack.com/help/articles/115005265703-Create-a-bot-for-your-workspace)
+
 ## How to run
 
 - In the docker-compose.yaml file, replace the environment variable for the slack bot token with the token of your own bot
 ![token](images/image1.png)
 
-- In the conf/fluent.conf file, enter your aws acces key, secret key, s3 bucket name and aws region to configure fluentd to push logs to the s3 bucket specified
+- In the conf/fluent.conf file, enter your aws access key, secret key, s3 bucket name and aws region to configure fluentd to push logs to the s3 bucket specified
 
 ![token](images/image2.png)
 
