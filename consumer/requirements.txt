@@ -1,0 +1,3 @@
+confluent-kafka
+configparser
+slack_sdk
